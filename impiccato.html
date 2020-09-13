@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>IMPICCATO</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+		<link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+		<link href="bootstrap/css/bootstrap-grid.css" type="text/css" rel="stylesheet"/>
+		<link href="bootstrap/css/bootstrap-reboot.css" type="text/css" rel="stylesheet"/>
+		<link href="file.css" type="text/css" rel="stylesheet"/>
+		<script type = "text/javascript" src="file.js"></script>
+	</head>
+	<body>        
+		<h1 class = "title">L'IMPICCATO</h1>
+		<div align = "center">
+			<p> Per indovinare una nuova parola premi qui:</p>
+			<button onclick = "restart()" type="button" class="btn btn-warning"> <h class = "testo_bianco"> SCHIACCIAMI!!!</h></button>
+		</div>
+		<br>
+		<div class = "left">
+			<input class = "img" type="image" id = "immagine" src = "images/starting_img.jpeg">
+		</div>
+		<div class = "right">
+			<p align = "center"> 
+				<h>La parola da indovinare è:</h> <br> <input  type = "button" id ="parola" value = "" ></button>
+				<br>
+				<h>Lettere usate:</h> <br> <input type = "button" id = "usedLetters" value = "">
+				<br>
+				<h>N° errori:</h> <br> <input type = "button" id = "errori" value = "0">
+				<br>
+				<h>Vinto/Perso/In gioco:</h> <br> <input type = "button" id = "game_state" value = "Scegli una parola">
+				<br>
+				<h>Lettera che scegli:</h>
+				<br> <br>
+				<button onclick = "select_l('A')" class="btn btn-primary" role="button">A</button>
+				<button onclick = "select_l('B')" class="btn btn-primary" role="button">B</button>
+				<button onclick = "select_l('C')" class="btn btn-primary" role="button">C</button>
+				<button onclick = "select_l('D')" class="btn btn-primary" role="button">D</button>
+				<button onclick = "select_l('E')" class="btn btn-primary" role="button">E</button>
+				<button onclick = "select_l('F')" class="btn btn-primary" role="button">F</button><br><br>
+				<button onclick = "select_l('G')" class="btn btn-primary" role="button">G</button>
+				<button onclick = "select_l('H')" class="btn btn-primary" role="button">H</button>
+				<button onclick = "select_l('I')" class="btn btn-primary" role="button">I</button>
+				<button onclick = "select_l('J')" class="btn btn-primary" role="button">J</button>
+				<button onclick = "select_l('K')" class="btn btn-primary" role="button">K</button>
+				<button onclick = "select_l('L')" class="btn btn-primary" role="button">L</button>
+				<button onclick = "select_l('M')" class="btn btn-primary" role="button">M</button><br><br>
+				<button onclick = "select_l('N')" class="btn btn-primary" role="button">N</button>
+				<button onclick = "select_l('O')" class="btn btn-primary" role="button">O</button>
+				<button onclick = "select_l('P')" class="btn btn-primary" role="button">P</button>
+				<button onclick = "select_l('Q')" class="btn btn-primary" role="button">Q</button>
+				<button onclick = "select_l('R')" class="btn btn-primary" role="button">R</button>
+				<button onclick = "select_l('S')" class="btn btn-primary" role="button">S</button>
+				<button onclick = "select_l('T')" class="btn btn-primary" role="button">T</button><br><br>
+				<button onclick = "select_l('U')" class="btn btn-primary" role="button">U</button>
+				<button onclick = "select_l('V')" class="btn btn-primary" role="button">V</button>
+				<button onclick = "select_l('W')" class="btn btn-primary" role="button">W</button>
+				<button onclick = "select_l('X')" class="btn btn-primary" role="button">X</button>
+				<button onclick = "select_l('Y')" class="btn btn-primary" role="button">Y</button>
+				<button onclick = "select_l('Z')" class="btn btn-primary" role="button">Z</button>
+
+				
+			</p>
+		</div>    
+		
+	</body>
+</html>

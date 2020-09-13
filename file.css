@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+.right {
+    position: absolute;
+    right: 10px;
+    width: 307px;
+    border: 3px solid orange;
+    padding: 10px;
+}
+.left {
+    position: absolute;
+    left: 10px;
+    width: 307px;
+    border: 3px solid orange;
+    padding: 10px;
+}
+.testo_bianco{
+    color: white;
+}
+.title{
+    text-align: center;
+    color: rosybrown;
+    text-decoration: underline;
+}
+
+.img{
+    width: 280px;
+    height:504px;
+}
