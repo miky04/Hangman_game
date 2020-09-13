@@ -105,6 +105,7 @@ function win(){
     if (mask_word == word){
         document.getElementById("game_state").value = "HAI VINTO!!!";
         play = false;
+        document.getElementById("immagine").src = "images/vinto.jpeg";
     }
 }
 
@@ -112,6 +113,8 @@ function lose(){
     if(errors == 6){
         document.getElementById("game_state").value = "HAI PERSO:(";
         play = false;
+        document.getElementById("parola").value = word;
+        document.getElementById("immagine").src = "images/perso.jpeg";
     }
 }
 
